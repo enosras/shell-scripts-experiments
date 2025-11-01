@@ -5,7 +5,7 @@ first=$1
 
 if [[ $first == 1 ]]; then 
 echo $((first + 5))
-elif [[ $first -gt 5 ]]; then
+elif [[ $first -gt 6 ]]; then
 echo $(($first + 10 ))
 else
 echo "$first is not good"
