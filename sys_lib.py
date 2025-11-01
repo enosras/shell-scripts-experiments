@@ -2,8 +2,8 @@ import sys
 import subprocess
 import time
 
-x = len(sys.argv)
-if x > 2:
+metrics = len(sys.argv)
+if metrics > 2:
     print(x)
     digit_one = sys.argv[1]
     digit_two = sys.argv[2]
