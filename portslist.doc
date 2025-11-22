@@ -1,0 +1,10 @@
+cat "Port 80 – HTTP (Hypertext Transfer Protocol)
+Port 443 – HTTPS (HTTP Secure)
+Port 22 – SSH (Secure Shell)
+Port 21 – FTP (File Transfer Protocol)
+Port 25 – SMTP (Simple Mail Transfer Protocol)
+Port 53 – DNS (Domain Name System)
+Port 110 – POP3 (Post Office Protocol version 3)
+Port 143 – IMAP (Internet Message Access Protocol)
+Port 3389 – RDP (Remote Desktop Protocol)
+Port 23 – Telnet"
