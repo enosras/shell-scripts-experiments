@@ -1,0 +1,4 @@
+ watch -n 3 date +"%T"
+# This command will display the current time every 3 seconds in the format HH:MM:SS.
+
+ while true; do printf "\033]0;%(%H:%M:%S)T\007"; sleep 1;done &
