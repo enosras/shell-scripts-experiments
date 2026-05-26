@@ -1,5 +1,6 @@
 #!/bin/bash
 
 IFS=","
-echo "All ßargs \$@: $@"
-echo "All args \$*: $*"
+enos="otie,enkonzi,enos"
+echo "All name \$@: '${enos[$@]}'"
+echo "All names \$*: '${enos[$*]}'"

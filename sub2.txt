@@ -1,0 +1,6 @@
+  PID TTY           TIME CMD
+34756 ttys012    0:00.29 -/bin/zsh
+35467 ttys012    0:00.38 vim devops.txt
+35601 ttys014    0:00.26 -/bin/zsh
+32558 ttys019    0:00.23 /bin/zsh -il
+32604 ttys021    0:00.11 /bin/zsh -i

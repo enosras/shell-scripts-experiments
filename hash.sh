@@ -20,3 +20,4 @@ cal_burn=$(echo "${steps} * ${const_steps}" | bc)
 echo "cal burned ${steps} : ${cal_burn}"
 exit 0
 
+
