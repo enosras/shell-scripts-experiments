@@ -1,7 +1,8 @@
-#!/bin/bash
+#! /usr/bin/env bash
 
-one=$1
-two=$2
-
-echo "These are the results : "
-echo $((one + two))
+watch -n 15 date +"%T"
+# one=$1
+# two=$2
+#
+# echo "These are the results : "
+# echo $((one + two))

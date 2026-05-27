@@ -2,7 +2,7 @@
 
 set -eo pipefail
 
-echo "Neovim tooling setup"
+echo "Neovim Tooling Setup"
 read -r -p "do you know your os : " answer
 if [[ ${answer} == no ]]; then
     i=$(sw_vers)
@@ -19,12 +19,18 @@ elif [[ ${answer} == yes ]]; then
     case "${answer1}" in
     debian)
         echo debian
+        # apt install neovim
         ;;
     macos)
-
-        brew list | grep "neovim"
-        # brew install neovim
-
+        # brew list | grep "neovim"
+        if brew list | grep -q "neovim"; then
+            echo "you already have nvim installed"
+        else
+            brew install neovim
+            mkdir -p /Users/enos/.config
+            cd /Users/enos/.config
+            touch nvim.lua
+        fi
         ;;
     *)
         echo
@@ -32,4 +38,4 @@ elif [[ ${answer} == yes ]]; then
     esac
     #
 fi
-exit 1
+exit 0
